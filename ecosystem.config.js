@@ -25,7 +25,7 @@ module.exports = {
         path: "/root/workspace/www/website",
         ssh_options: "StrictHostKeyChecking=no",
         "post-deploy": 'cnpm install && pm2 startOrRestart ./ecosystem.config.js --env production',
-        env: {
+        env: {                                               
           NODE_ENV: 'production'
         }
   
