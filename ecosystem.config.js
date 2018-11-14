@@ -24,7 +24,7 @@ module.exports = {
         repo: "git@github.com:Hyg900928/website.git",
         path: "/root/workspace/www/website/production",
         ssh_options: "StrictHostKeyChecking=no",
-        "post-deploy": 'cnpm install && npm run server --env production',
+        "post-deploy": 'git pull origin master && cnpm install && npm run server --env production',
         env: {                                               
           NODE_ENV: 'production'
         }
