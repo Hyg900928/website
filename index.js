@@ -1,6 +1,6 @@
 const exress = require('express');
 
-const app = exress()
+const app = exress();
 
 app.get('/', function(req, res, next){
     res.end('hello world,hahhahhhh \n')
