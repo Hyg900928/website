@@ -1,0 +1,4 @@
+[submodule "learngit"]
+	path = learngit
+	url = git@github.com:Hyg900928/learngit.git
+	branch = dev
